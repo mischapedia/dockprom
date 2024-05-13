@@ -34,6 +34,13 @@ scrape_configs:
     static_configs:
       - targets: ['pushgateway:9091']
 
+  - job_name: 'opendtu'
+    scrape_interval: 10s
+    honor_labels: true
+    static_configs:
+      - targets: ['192.168.178.104:80']
+    metrics_path: '/api/prometheus/metrics'
+    scheme: http  # Use 'http' for HTTP or 'https' for HTTPS
 
 alerting:
   alertmanagers:
