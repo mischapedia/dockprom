@@ -160,7 +160,7 @@
             "mode": "thresholds"
           },
           "mappings": [],
-          "max": 800,
+          "max": 600,
           "thresholds": {
             "mode": "absolute",
             "steps": [
@@ -170,11 +170,11 @@
               },
               {
                 "color": "#EAB839",
-                "value": 400
+                "value": 200
               },
               {
                 "color": "red",
-                "value": 600
+                "value": 400
               }
             ]
           },
@@ -692,7 +692,7 @@
             }
           },
           "mappings": [],
-          "max": 800,
+          "max": 750,
           "thresholds": {
             "mode": "absolute",
             "steps": [
