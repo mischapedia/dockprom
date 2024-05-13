@@ -563,7 +563,7 @@
           "refId": "A"
         }
       ],
-      "title": "Spannung DC",
+      "title": "Spannung AC",
       "type": "timeseries"
     },
     {
