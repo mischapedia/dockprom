@@ -24,7 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 12,
+  "id": null,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -298,7 +298,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "```\nInbetriebnahme: 01.05.2024\nInverter: Hoymiles HM-600\nInverter #: secret\n```",
+        "content": "```\nInbetriebnahme: 01.05.2024\nInverter: Technaxx TX-204\n(Hoymiles HM-600)\n```",
         "mode": "markdown"
       },
       "pluginVersion": "9.2.15",
@@ -692,7 +692,7 @@
             }
           },
           "mappings": [],
-          "max": 750,
+          "max": 650,
           "thresholds": {
             "mode": "absolute",
             "steps": [
@@ -929,8 +929,9 @@
   "refresh": "30s",
   "schemaVersion": 37,
   "style": "dark",
-  "tags": [],
-  "templating": {
+  "tags": [
+    "opendtu"
+  ],"templating": {
     "list": []
   },
   "time": {
@@ -940,7 +941,6 @@
   "timepicker": {},
   "timezone": "",
   "title": "OpenDTU",
-  "uid": "BoX6MxeVz",
   "version": 32,
   "weekStart": ""
 }

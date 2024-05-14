@@ -1,5 +1,9 @@
 # dockprom
 
+This repo has been forked from [stefanprodan/dockprom](https://github.com/stefanprodan/dockprom). I'm using it as a platform for my [OpenDTU](https://www.opendtu.solar/) dashboard. ___Michael Stolz, 2024-05-14___
+
+Below text is taken from the original repo.
+
 A monitoring solution for Docker hosts and containers with [Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [cAdvisor](https://github.com/google/cadvisor),
 [NodeExporter](https://github.com/prometheus/node_exporter) and alerting with [AlertManager](https://github.com/prometheus/alertmanager).
 
