@@ -739,7 +739,7 @@
         {
           "datasource": "Prometheus",
           "editorMode": "builder",
-          "expr": "opendtu_PowerDC",
+          "expr": "opendtu_Power",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
